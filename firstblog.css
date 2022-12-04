@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    background-color: burlywood;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(122, 160, 55);
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+section article {
+    transition: all 0.3s ease;
+    background-color: lightyellow;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+
+.subtitle {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem black;
+}
+
+section article p {
+    margin: 0;
+    text-align: left;
+    margin-top: 1rem;
+}
+
+section article div {
+    display: flex;
+    justify-content: center;
+    }
+
+footer {
+    background-color: rgba(238, 238, 238, 0.70);
+    padding: 3rem;
+    }
+
+footer section {
+    float: left;
+}
+
+footer p {
+    float: right;
+}
+
+footer a {
+    transition: 0.3s;
+    color: green;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: brown;
+}
